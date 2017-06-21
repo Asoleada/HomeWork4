@@ -1,0 +1,66 @@
+body {
+    background-color: #f2e1e1;
+}
+
+header {
+    background-image: url("img1.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(50%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing:  5px;
+    padding: 180px;
+    margin: 0px;
+}
+
+h1.h1size {
+    font-size: 60px;
+}
+h2.h2size {
+    font-size: 27px;
+}
+
+div.navigation{
+    background-color: rgba(255,255,255,0.8);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    clear:both;
+    overflow: hidden;  /* --> Hoveris neislenda uz meniu ribas */
+}
+div.navigation a {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: black;
+    line-height: 3.5;
+    text-decoration: none;
+    padding: 135px;
+}
+
+div.navigation a:hover {
+    background-color: lightgrey;
+}
+
+
+div.story { border: none;
+    width: 80%;
+    margin: auto;
+}
+
+.image2 {margin: 0px 80px ;
+    filter: grayscale(80%);
+}
+
+div.story h1 {
+    color: #757575;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing:  5px;
+    padding: 25px;
+    margin-top: 50px
+}
+
