@@ -1,6 +1,9 @@
 body {
     background-color: #f2e1e1;
+    margin:0;
 }
+div.main {width: 980px;
+margin:auto;}
 
 header {
     background-image: url("img1.jpg");
@@ -13,7 +16,7 @@ header {
     text-align: center;
     letter-spacing:  5px;
     padding: 180px;
-    margin: 0px;
+
 }
 
 h1.h1size {
@@ -36,23 +39,30 @@ div.navigation a {
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     color: black;
-    line-height: 3.5;
+    line-height: 1.5;
     text-decoration: none;
-    padding: 135px;
+
 }
 
-div.navigation a:hover {
-    background-color: lightgrey;
+div.home a:hover {
+    background-color: grey;
 }
 
+div.rsvp a:hover {
+    background-color: black;
+}
 
-div.story { border: none;
-    width: 80%;
+div.story {
+    border: none;
+    width: 100%;
     margin: auto;
 }
 
-.image2 {margin: 0px 80px ;
+
+.image2 {margin: 0px auto ;
     filter: grayscale(80%);
+    width: 100%;
+
 }
 
 div.story h1 {
@@ -62,5 +72,49 @@ div.story h1 {
     letter-spacing:  5px;
     padding: 25px;
     margin-top: 50px
+}
+
+div.story p {
+    color: #4f4949;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    letter-spacing:  1px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+div.button1 {
+    text-align: center;
+    background-color: black;
+    width: 150px;
+    height: 20px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button.b1 {
+    background-color: black;
+    border-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+div.button1:hover {
+    background-color: grey;
+}
+
+
+button.b1:hover {
+    background-color: grey;
+    border-color: grey;
+}
+
+
+.button1 a:hover{
+    background-color: grey;
+    border-color: grey;
 }
 
