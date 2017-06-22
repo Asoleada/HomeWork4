@@ -14,43 +14,27 @@ header {
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  5px;
+    letter-spacing:  3.3px;
     padding: 180px;
 
 }
 
-h1.h1size {
-    font-size: 60px;
+h1#h1size {
+    font-size: 65px;
+    font-weight: normal;
+    margin-bottom:0;
 }
-h2.h2size {
-    font-size: 27px;
-}
-
-div.navigation{
-    background-color: rgba(255,255,255,0.8);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
-    clear:both;
-    overflow: hidden;  /* --> Hoveris neislenda uz meniu ribas */
-}
-div.navigation a {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    color: black;
-    line-height: 1.5;
-    text-decoration: none;
-
+h2#h2size1 {
+    font-size: 29px;
+    font-weight: normal;
 }
 
-div.home a:hover {
-    background-color: grey;
+h2#h2size2 {
+    font-size: 30px;
 }
 
-div.rsvp a:hover {
-    background-color: black;
-}
+
+
 
 div.story {
     border: none;
@@ -59,7 +43,8 @@ div.story {
 }
 
 
-.image2 {margin: 0px auto ;
+#image2 {margin: 0px auto ;
+    margin-bottom: 25px;
     filter: grayscale(80%);
     width: 100%;
 
@@ -69,21 +54,22 @@ div.story h1 {
     color: #757575;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  5px;
+    letter-spacing:  1px;
     padding: 25px;
-    margin-top: 50px
+    margin-top: 50px;
+    font-size: 35px;
 }
 
 div.story p {
-    color: #4f4949;
+    color: #191818;
     font-family: 'Raleway', sans-serif;
     text-align: justify;
-    letter-spacing:  1px;
     font-style: italic;
     font-size: 15px;
+    line-height: 1.7;
 }
 
-div.button1 {
+div#button1 {
     text-align: center;
     background-color: black;
     width: 150px;
@@ -93,28 +79,258 @@ div.button1 {
     border-radius: 5px;
 }
 
-button.b1 {
+button#b1 {
     background-color: black;
     border-color: black;
     color: white;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-size: 17px;
 }
 
 
-div.button1:hover {
+div#button1:hover {
+    background-color: #CCCCCC;
+}
+
+
+button#b1:hover {
+    background-color: #CCCCCC;
+    border-color: #CCCCCC;
+    color:black;
+}
+
+/**
+#button1 a:hover{
+    background-color: #CCCCCC;
+    border-color: #CCCCCC;
+}
+**//
+
+
+#flowers {
+    position: relative;
+}
+
+#flowerText {
+    position: absolute;
+    left: 0;
+    top: 300%;
+    width: 100%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+
+h1#flowtextsize1 {
+    font-size: 55px;
+    font-weight: normal;
+    letter-spacing:  4px;
+    line-height: 0;
+}
+h2#flowtextsize2 {
+    font-size: 30px;
+    letter-spacing:  1.5px;
+    font-weight: normal;
+}
+
+#image3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+
+div#wed h1 {
+    color: #757575;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing:  1.5px;
+    padding: 25px;
+
+}
+
+
+#image4 {margin: 25px auto ;
+    filter: grayscale(77%);
+    width: 100%;
+    border-radius: 7px;
+}
+
+#dateplace h1 {
+    color: #292828;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing:  0.8px;
+    padding: 10px;
+    margin-top: 50px;
+    font-size:30px;
+    font-weight: normal;
+
+}
+
+#dateplace p {
+    color: #292828;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing:  0.3px;
+    padding: 5px;
+    font-size:15px;
+    font-weight: normal;
+}
+
+
+
+div.float {
+    display: inline-block;
+    width: 470px;
+    border: black;
+}
+
+
+#hope {
+    background-color: #ffdddd;
+    height: 360px;
+}
+
+#hope h1 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing:  3.3px;
+    padding-top: 75px;
+    margin-top: 60px;
+    font-size:37px;
+    font-weight: normal;
+}
+
+#hope p {
+    color: #292828;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing:  3px;
+    padding: 5px;
+    font-size:18px;
+    font-weight: normal;
+}
+
+
+div#button2 {
+    text-align: center;
+    background-color: #f88078;
+    width: 150px;
+    height: 20px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button#b2 {
+    background-color: #f88078;
+    border-color: #f88078;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+}
+
+
+div#button2:hover {
+    background-color: #CCCCCC;
+}
+
+button#b2:hover {
+    background-color: #CCCCCC;
+    border-color: #CCCCCC;
+    color:black;
+}
+
+div#black {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+div#black a {
+    color:white;
+}
+
+div#black a:hover {
+    color: #4CAF50;
+}
+
+
+
+
+/**
+div#navigation{
+    background-color: rgba(255,255,255,0.8);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    clear:both;
+    overflow: hidden;  /* --> Hoveris neislenda uz meniu ribas */
+}
+
+/**
+div#navigation a {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: black;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+div#home a:hover {
     background-color: grey;
 }
 
+div#rsvp a:hover {
+    background-color: black;
+}
+**/
 
-button.b1:hover {
-    background-color: grey;
-    border-color: grey;
+
+div#empty {
+    width:100%;
+    background-color: white;
 }
 
 
-.button1 a:hover{
-    background-color: grey;
-    border-color: grey;
+ul {
+    list-style-type: none;
 }
+
+li {display: inline-block;
+    width:24%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    padding-top:20px;
+}
+
+.nav {position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 55px;
+    background-color:RGBA(255,255,255,0.70);
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
 
