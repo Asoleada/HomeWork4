@@ -40,7 +40,7 @@ div.story {
     border: none;
     width: 100%;
     margin: auto;
-}
+    }
 
 
 #image2 {margin: 0px auto ;
@@ -63,49 +63,31 @@ div.story h1 {
 div.story p {
     color: #191818;
     font-family: 'Raleway', sans-serif;
-    text-align: justify;
     font-style: italic;
     font-size: 15px;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
-div#button1 {
-    text-align: center;
-    background-color: black;
-    width: 150px;
-    height: 20px;
-    margin: 40px auto;
+
+#button1 {
+    display: block;
+    margin: 58px auto 75px auto;
     padding: 20px;
-    border-radius: 5px;
-}
-
-button#b1 {
+    width: 150px;
+    border-radius: 4px;
     background-color: black;
-    border-color: black;
-    color: white;
+    color:white;
     text-align: center;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 
-
-div#button1:hover {
+#button1:hover , #button2:hover {
     background-color: #CCCCCC;
+    color: black;
 }
 
-
-button#b1:hover {
-    background-color: #CCCCCC;
-    border-color: #CCCCCC;
-    color:black;
-}
-
-/**
-#button1 a:hover{
-    background-color: #CCCCCC;
-    border-color: #CCCCCC;
-}
-**/
 
 #flowers {
     position: relative;
@@ -113,7 +95,7 @@ button#b1:hover {
 }
 
 
-/** NUSOKA TEKSTAS!!! priklausomas nuo body, o ne picture, kodel??**/
+
 #flowerText {
     position: absolute;
     top: 35%;
@@ -217,35 +199,24 @@ div.float {
 }
 
 
-div#button2 {
-    text-align: center;
-    background-color: #f88078;
-    width: 150px;
-    height: 20px;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 5px;
-}
 
-button#b2 {
+
+#button2 {
+    display: block;
+    margin: 35px auto;
+    padding: 18px;
+    width: 145px;
+    border-radius: 4px;
     background-color: #f88078;
-    border-color: #f88078;
-    color: white;
+    color:white;
     text-align: center;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 23px;
 }
 
 
-div#button2:hover {
-    background-color: #CCCCCC;
-}
 
-button#b2:hover {
-    background-color: #CCCCCC;
-    border-color: #CCCCCC;
-    color:black;
-}
 
 div#black {
     width: 100%;
@@ -256,7 +227,7 @@ div#black {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     padding-top: 30px;
-}
+    }
 
 div#black a {
     color:white;
@@ -277,7 +248,8 @@ ul {
     list-style-type: none;
 }
 
-li {display: inline-block;
+li {
+    display: inline-block;
     width:24%;
     text-align: center;
     font-family: "Raleway", sans-serif;
@@ -287,7 +259,8 @@ li {display: inline-block;
     padding-top:20px;
 }
 
-#nav {position: fixed;
+#nav {
+    position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
@@ -295,6 +268,7 @@ li {display: inline-block;
     background-color:RGBA(255,255,255,0.70);
     z-index: 1;
     margin-bottom: 0;
+    clear: both;
 }
 
 
@@ -310,6 +284,9 @@ li#hover2:hover {
     color:white;
 }
 
+#nav:hover {
+    background-color:white;
+}
 
 
 
