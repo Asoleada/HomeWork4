@@ -227,6 +227,7 @@ div#black {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     padding-top: 30px;
+    margin-bottom: 55px;
     }
 
 div#black a {
@@ -237,11 +238,6 @@ div#black a:hover {
     color: #4CAF50;
 }
 
-
-div#empty {
-    width:100%;
-    background-color: white;
-}
 
 
 ul {
