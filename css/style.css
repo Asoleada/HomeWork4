@@ -1,9 +1,12 @@
 body {
     background-color: #f2e1e1;
-    margin:0;
+    margin: 0;
 }
-div.main {width: 980px;
-margin:auto;}
+
+div.main {
+    width: 980px;
+    margin: auto;
+}
 
 header {
     background-image: url("img1.jpg");
@@ -14,36 +17,37 @@ header {
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  3.3px;
+    letter-spacing: 3.3px;
     padding: 180px;
 
 }
 
-h1#h1size {
+#L1 h1 {
     font-size: 65px;
     font-weight: normal;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
-h2#h2size1 {
+
+
+/** neveikia #L1 h2:first-child {...} **/
+#L1 h3 {
     font-size: 29px;
     font-weight: normal;
 }
 
-h2#h2size2 {
+
+#L1 h2:last-child {
     font-size: 30px;
 }
-
-
-
 
 div.story {
     border: none;
     width: 100%;
     margin: auto;
-    }
+}
 
-
-#image2 {margin: 0px auto ;
+#image2 {
+    margin: 0px auto;
     margin-bottom: 25px;
     filter: grayscale(80%);
     width: 100%;
@@ -54,7 +58,7 @@ div.story h1 {
     color: #757575;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  1px;
+    letter-spacing: 1px;
     padding: 25px;
     margin-top: 50px;
     font-size: 35px;
@@ -68,7 +72,6 @@ div.story p {
     line-height: 1.8;
 }
 
-
 #button1 {
     display: block;
     margin: 58px auto 75px auto;
@@ -76,18 +79,17 @@ div.story p {
     width: 150px;
     border-radius: 4px;
     background-color: black;
-    color:white;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
 
-#button1:hover , #button2:hover {
+#button1:hover, #button2:hover {
     background-color: #CCCCCC;
     color: black;
 }
-
 
 #flowers {
     position: relative;
@@ -95,28 +97,26 @@ div.story p {
 
 }
 
-
-
-#flowerText {
+#flowers div {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
-
-h1#flowtextsize1 {
+#flowers h1 {
     font-size: 55px;
     font-weight: normal;
-    letter-spacing:  4px;
+    letter-spacing: 4px;
     line-height: 0;
 }
-h2#flowtextsize2 {
+
+#flowers h2 {
     font-size: 30px;
-    letter-spacing:  1.5px;
+    letter-spacing: 1.5px;
     font-weight: normal;
 }
 
@@ -126,18 +126,17 @@ h2#flowtextsize2 {
     margin-bottom: 15px;
 }
 
-
 div#wed h1 {
     color: #757575;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  1.5px;
+    letter-spacing: 1.5px;
     padding: 25px;
 
 }
 
-
-#image4 {margin: 25px auto ;
+#wed img {
+    margin: 25px auto;
     filter: grayscale(77%);
     width: 100%;
     border-radius: 7px;
@@ -147,10 +146,10 @@ div#wed h1 {
     color: #292828;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  0.8px;
+    letter-spacing: 0.8px;
     padding: 10px;
     margin-top: 50px;
-    font-size:30px;
+    font-size: 30px;
     font-weight: normal;
 
 }
@@ -159,20 +158,17 @@ div#wed h1 {
     color: #292828;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  0.3px;
+    letter-spacing: 0.3px;
     padding: 5px;
-    font-size:15px;
+    font-size: 15px;
     font-weight: normal;
 }
-
-
 
 div.float {
     display: inline-block;
     width: 470px;
     border: black;
 }
-
 
 #hope {
     background-color: #ffdddd;
@@ -183,10 +179,10 @@ div.float {
     color: black;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  3.3px;
+    letter-spacing: 3.3px;
     padding-top: 75px;
     margin-top: 60px;
-    font-size:37px;
+    font-size: 37px;
     font-weight: normal;
 }
 
@@ -194,14 +190,11 @@ div.float {
     color: #292828;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    letter-spacing:  3px;
+    letter-spacing: 3px;
     padding: 5px;
-    font-size:18px;
+    font-size: 18px;
     font-weight: normal;
 }
-
-
-
 
 #button2 {
     display: block;
@@ -210,15 +203,12 @@ div.float {
     width: 145px;
     border-radius: 4px;
     background-color: #f88078;
-    color:white;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 23px;
 }
-
-
-
 
 div#black {
     width: 100%;
@@ -230,31 +220,31 @@ div#black {
     font-size: 15px;
     padding-top: 30px;
     margin-bottom: 55px;
-    }
+}
 
 div#black a {
-    color:white;
+    color: white;
 }
 
 div#black a:hover {
     color: #4CAF50;
 }
 
-
-
 ul {
     list-style-type: none;
 }
 
 li {
-    display: inline-block;
-    width:24%;
+    float: left;
+    width: 25%;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     color: black;
     text-decoration: none;
-    padding-top:20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #nav {
@@ -263,27 +253,27 @@ li {
     right: 0;
     width: 100%;
     height: 55px;
-    background-color:RGBA(255,255,255,0.70);
+    background-color: RGBA(255, 255, 255, 0.70);
     z-index: 1;
     margin-bottom: 0;
     clear: both;
 }
 
 
-
 li.hover1:hover {
-    background-color:#CCCCCC;
-    padding: 10px 0 10px 0;
+    background-color: #CCCCCC;
+    padding-bottom: 10px;
 }
 
+
 li#hover2:hover {
-    background-color:black;
-    padding: 10px 0 10px 0;
-    color:white;
+    background-color: black;
+    padding-bottom: 10px;
+    color: white;
 }
 
 #nav:hover {
-    background-color:white;
+    background-color: white;
 }
 
 
