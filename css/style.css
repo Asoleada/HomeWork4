@@ -29,7 +29,7 @@ header {
 }
 
 /** neveikia #L1 h2:first-child {...} -- AR PADARYTI SU <h3> ? **/
-#L1 h2:first-child {
+#L1 h2 {
     font-size: 29px;
     font-weight: normal;
 }
